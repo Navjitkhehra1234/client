@@ -10,7 +10,6 @@ if(navigator.geolocation) {
           console.log("It Support");
           var imgKitten = document.getElementById("theWall");
           imgKitten.src = "https://placekitten.com/200/300";
-
 } else {
     console.log("It not support");
     function geoError(errorObj) {     
